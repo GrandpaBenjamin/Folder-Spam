@@ -24,4 +24,4 @@ while True:
   tct = 'spam ' + text
   txt = 'spam/' + tct
   shutil.copytree('spam', txt)
-  print(tct)
+  print('created folder', tct)
